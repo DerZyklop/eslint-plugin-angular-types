@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-plano",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup index.ts --no-splitting"
+  },
+  "devDependencies": {
+    "@angular-eslint/template-parser": "13.0.1",
+    "@types/eslint": "8.4.1",
+    "@types/estree": "0.0.51",
+    "@types/node": "17.0.17",
+    "@typescript-eslint/eslint-plugin": "5.11.0",
+    "@typescript-eslint/parser": "5.11.0",
+    "eslint": "8.8.0",
+    "eslint-plugin-eslint-plugin": "4.1.0",
+    "tsup": "5.11.13",
+    "typescript": "4.5.5"
+  },
+  "bugs": {
+    "url": "https://github.com/DerZyklop/eslint-plugin-angular-types/issues"
+  }
+}
