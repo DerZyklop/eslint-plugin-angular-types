@@ -1,7 +1,11 @@
 # eslint-plugin-angular-types
 
+----
+
 # ATTENTION!
 CURRENTLY THIS IS FOR MY PERSONAL USE ONLY. IT PROBABLY MAKES NO SENSE FOR OTHER PROJECTS THAN MY OWN. Release 1.0.0 will be for public.
+
+----
 
 Refactor, improve and maintain TypeScript types in your Angular project.
 
@@ -24,7 +28,7 @@ Minimal `.eslintrc.json`:
     "rules": {
         "angular-types/prefer-form-group-get": "error"
     },
-		…
+    …
 }
 ```
 
